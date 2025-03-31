@@ -1,0 +1,86 @@
+Cucumber : is a framework with this will be able write feature fil and able to create bdd framework
+plugin
+
+with cucumber plugin we can use bdd(behavioural driven development
+) framework
+descriptive English grammeer
+
+------------------
+GHERKIN:
+
+Given: given is precondition ot prerequistie
+
+And: additional condtions 
+when:  wahat acrtion we have to perform
+Then : validation
+
+
+Scnario outkine:with this we can do parameterisef  scenarios present in the feature file
+if weant to comment something in feature file will give # befor that particular step is going to execute
+--------------------
+
+diff between scn and scn outlinein feature file: 
+scn outline: we can passa the parameters in the examples field,
+
+if we will scn  then we cant pass the parameters like username , password . we have to pass the value directly like "abcd123"
+
+-------------------------
+
+
+when we are executing feature file will get shells in the console
+
+piko container: dependency share container in order to share context in between multiple features
+-------------------------------------------------
+
+Execution :
+first we have to create feature file 
+  | username | password |
+
+| : pipe operator and it divides in betweene xamples
+Examples will use to perform data driven testing 
+
+
+and run that file will get cucumber shell and will copy that
+Create a package with step definition and  in that package create a class and paste  that shell in the class
+
+=-------------
+hooks are of 2 types
+before and after hooks
+
+
+1 before:
+befire execution scenario if we want to add any steps then will use before 
+we can add prerequisite ccode 
+
+after:after execution scenario if we want to add any steps then will use after 
+EX;closing the connection 
+-------------
+TagName:
+we can add tagname for each scenario as well
+
+we can create a tagged before menthod with tagname as parameters the it will execute only before partiaculat scenario
+same way we can create after method as well
+----------------------
+Background consists of those steps written at beginning of feauture file. will add in backrounf
+
+disadvantage: we cannot pass any values like  examples in parameeeter
+------------------------
+background, hooks, tagged hokks, steps
+
+order of execution:
+before hooks
+tagged before hooks
+background,
+steps
+tagged After hooks
+After hooks
+
+
+
+javaCompilerVersion
+17
+
+
+
+
+

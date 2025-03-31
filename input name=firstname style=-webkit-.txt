@@ -1,0 +1,33 @@
+<input name="firstname" style="-webkit-appearance:none;appearance:none;background-color:#fcfcfc;border-color:rgba(173,176,182,.3);border-radius:0;border-style:solid;border-width:1px;color:#787d85;font-family:verdana,helvetica,arial,verdana,sans-serif;font-size:13px;height:38px;line-height:22px;margin:0;outline:0;padding:5px 15px;vertical-align:baseline" type="text">
+
+<input id="datepicker" style="-webkit-appearance:none;appearance:none;background-color:#fcfcfc;border-color:rgba(173,176,182,.3);border-radius:0;border-style:solid;border-width:1px;color:#787d85;font-family:verdana,helvetica,arial,verdana,sans-serif;font-size:13px;height:38px;line-height:22px;margin:0;outline:0;padding:5px 15px;vertical-align:baseline" type="text">
+
+<input id="sex-0" name="sex" style="font-size:14px;margin-left:0;margin-right:0;margin-top:0;padding:0;vertical-align:baseline" type="radio" value="Male">
+https://www.youtube.com/watch?v=5rL_Ku4-XCg
+
+//*[@id="name"]
+
+<input required="" autocomplete="off" placeholder="Last Name" type="text" id="lastName" class=" mr-sm-2 form-control">
+<input name="name" id="name" type="text" class="form-control" placeholder="First Name">
+
+//*[@id="name"]
+
+//iframe[@src='MultipleFrames.html']
+<iframe src="MultipleFrames.html" style="float: left;height: 300px;width:600px">
+
+                            <p>Your browser does not support iframes.</p>
+
+                        </iframe>
+
+//*[text()='Mobile(10 Digits):']
+https://cosmocode.io/automation-practice-webtable/
+
+
+It is used to delete all the elements of invoking collection except the specified collection.
+
+
+
+/html/body/table/tbody/tr[2]/td[2]
+/html/body/table/tbody/tr[3]/td[2]
+//table/tbody/tr[2]/td[1]/input
+//table/tbody/tr[3]/td[1]/input

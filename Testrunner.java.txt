@@ -1,0 +1,6 @@
+Testrunner.java
+with the help of testrunner.java we have an oprion to execute scenarios directly with runner file 
+
+for this we have to add cucumber junit dependency in pom.xml- this will help u to execute test scripts
+
+

@@ -1,0 +1,67 @@
+syntax of relative xpath= //tagname[@attribute='value']
+
+
+syntax of contains  //tagname[contains(@attribute,'value')]
+
+Syntax of starts with   //tagname[starts-with(@attribute,'part of attribute value')]
+
+syntax of text  //*[text()='']
+
+
+syntax of and or operator:
+//tagname[@name='Namevalue'and @id='ID VALUE']
+//tagname[@name='Namevalue'or @id='ID VALUE']
+
+Ancestor:
+These axes indicate all the ancestors relative to the context node, also reaching up to the root node.
+/tagname[@attribute=’value’]/ancestor::tagname
+ tagname[@attribute=’value’]/ancestor::tagname[@attribute=’value’]
+
+
+This one indicates the context node and all the ancestors relative to the context node, and includes the root node.
+
+
+
+
+
+
+
+
+following syntax:
+//tagname[@type='value']//following::input[1]
+
+preceding  -above
+Preceding XPath Axes are used to traverse all nodes that comes before the current html
+//tagname[@type='value']//preceding::tagname
+
+ancestor syntax:
+//*[text()='']//ancestor::input[1]
+
+
+Child:
+Child axes are used to traverse all child elements of the current html tag.
+//*[@type='value']//child::li[1]
+
+Parent
+Parent axes are used to traverse parent element of the current html tag.
+//*[@type='value']//Parent::li[1]
+
+following sibling : same input:findling youngrt ibling with elder one
+
+//tagname[@type='value']//following-sibling::tagname[@type='value']
+
+
+
+
+preceding sibling  : finfing elder sibling with the help of younger sibling
+
+//current html tag[@attribute=’value’]/preceding-sibling::previous tag [@attribute=’value’]
+
+Descendant
+The next XPath axes are descendant which are used to identify the child and grandchild tag of the current html tag in the web pages.
+//*[attribute=’value’]/descendant::tagname
+
+
+
+
+

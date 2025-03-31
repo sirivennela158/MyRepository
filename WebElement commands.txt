@@ -1,0 +1,47 @@
+WebElement=whatever  are seeing in wep page is webelement ex:checkbox , radiobutton 
+
+webelement mands- commands which we are going to perform in the web elements
+
+FindElement:interface
+If we want to locate  only  1 element in web page then will use find element
+ and return type is webElement
+if there is no match will get nosuchelementexception
+it take less time
+
+
+Findelements:interface
+if we want to locate list of elements in web page 
+returntype is List<WebElement>
+if there is no match will get emptylist
+it take more time
+
+
+1. Sendkeys():
+will pass value in a text box 
+
+clr():
+if we want to clr values in a textbox
+
+is displayed:if webelement which we are searching is displayed then only we can use it 
+
+
+isenabled:if webelement which we are searching is enabled  same like agree terms and conditions then only submit will be enabled
+This determines if the element currently is Enabled or not? This accepts nothing as a parameter but returns boolean value(true/false).
+
+isselected
+once we are
+
+
+getText:
+if we want to fetch text from webpage
+
+
+getTagname:
+will display tag name
+
+get size:
+will display size
+
+getLocation:
+will display x & y coordinate
+
