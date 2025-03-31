@@ -1,0 +1,37 @@
+
+Maven
+selenium
+Testng
+Cucumber
+BDD
+2 Automation framework from scratch(BDD cucumeber +Testng)
+GIT
+Jenkins
+Selenium Automation Framework+Git+jenkins
+basics of api testing
+postman
+Restassured
+Automation framework from scratch RestAssured(BDD cucumeber +Testng)
+
+
+
+Initially hp launches UFT TOOL . it is licened . expensive . 
+
+Selenium:
+web automation tool
+used for web automating web application
+
+
+BDD(framework) & cucumber(plugin= which is helping  to create bdd framework from scratch)
+
+
+Functional Automation:
+web &UI: selenium, UFT, cypress, playwright, webdriver IO
+
+API Testing :Rest Assured, JMETER,SoapUI,Karate, cypress, playwright,
+
+Mobile Automation:appium,flutter, perfecto
+
+
+Non Functional Automation:
+performace or load: JMETER ,LoadRunner, paramount, neoload

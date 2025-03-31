@@ -1,0 +1,106 @@
+> Write a program in Java to take input as array and right rotate the elements 3 times
+2>Write a program in Java to take an array and reverse all the elements of array - complete
+3>Write a program in Java to find the Sum of all even elements in array - complete
+4>Write a program in Java to remove duplicate elements from array - complete 
+5>Write a program in Java to find product of two 3*3 matrix=complete
+6> Write a program in java To find the total number of vowels and consonant in string- complete
+7> Write a program in java to find the sum of all integer elements from string  - complete
+8>Check that whether one string is a rotation of another string - skip
+9>Write a program in java To find the duplicate words from a string = complete
+10> Write a program in java Reverse a string word by word - complete
+
+
+
+  11.  abcDEF@1234cfghi   
+Write a program in java To Remove all white spaces
+Then convert this to upper case
+then split the string on basis of @
+
+check in this string a is present or not if present find the index of a
+then convert this string to lowercase and reverse this string(without using direct method)
+and then check whether palindrome or not - complete
+
+12>Write a program in java  to find the element that appears only once in an array.- will add later
+
+13> Write a program in Java to check whether two strings are panagram
+
+14>WAP in Java 
+Create a Class named Shape with length as instance variable  , create three methods as square , rectangle , circle 
+and find out their respective areas 
+Create a object in main method and call these different methods with the instance of object 
+
+15>WAP in Java 
+Create a class named school ,create name as their instance variables 
+Create a default constructor of this class which will have a print statement to display the name of school 
+Create a method inside the class which will display a message as "This School is based out of Kolkata"
+Create a object under main method and call the constructor and the method 
+
+
+16>WAP in Java to create a class named school 
+create name, address,strength as their instance variables 
+Create two constructor one with two variables and one with all the three variables 
+Create a method that will display all the three parameters 
+create two object of this class and call the respective methods 8888
+
+
+
+
+
+
+
+String[] arr = {"john","jack","rachita","john","jerry","rachita"};  please remove duplicates from the given string array grp 1
+
+2nd group = int[] arr = { 7, 3, 4, 5, 5, 6, 2 };find the missing and repeating number in java
+
+static void printTwoElements(int[] arr)
+    {
+        int n = arr.length;
+
+        boolean[] visited = new boolean[n + 1];
+      
+        int repeating = -1, missing = -1;
+
+        Arrays.fill(visited, false);
+
+        for (int i = 0; i < n; i++) {
+            if (visited[arr[i]]) {
+                repeating = arr[i];
+            }
+            else {
+                visited[arr[i]] = true;
+            }
+        }
+
+        for (int i = 1; i <= n; i++) {
+            if (!visited[i]) {
+                missing = i;
+                break;
+            }
+        }
+
+        System.out.println("Repeating : " + repeating);
+        System.out.println("Missing : " + missing);
+    }
+
+    public static void main(String[] args)
+    {
+        int[] arr = { 7, 3, 4, 5, 5, 6, 2 };
+        printTwoElements(arr);
+    }
+}
+
+3rd group : String[] words = {
+		            "apple", "banana", "orange", "apple", "banana", "banana", "kiwi", "orange"
+		        };
+ find the occurrence of each word in a given array
+
+4th group : String s = "20 18 12 9 3 6 4 7 21"; get maximum count of odd number
+
+
+imp
+Tomorrow
+T$m$$rr$$$w
+
+I Love Java
+I evoL avaJ
+

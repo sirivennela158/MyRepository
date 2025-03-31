@@ -1,0 +1,38 @@
+Maven:
+maven is a build tool
+it provides skeleton for  framework
+
+POM.xml is a heart of maven project
+e=execution will start from maven
+
+Maven consists of 2 repositories
+1.maven central repository: where all the organization add diff dependencies
+2. maven intenal reposietoy:.m2
+
+
+dependency- compressed jar file :consists group id , artifact id, version I, scope
+
+group id , artifact id is a candidate key - 
+
+plugin: external sources which will help to execution of project
+
+JAR :Java executable archieve file
+when we are writing code 
+
+Life cycle of maven:
+3 imp phases in maven lifecycle
+
+1.compile; where we are compile all dependencies in project . to check compile time error
+2.Test
+clean the  previous report. and then start the execution
+
+2imp plugins will be there
+maven sure fire plugin
+:if we want to execute step by step(unit testcase ) then will use maven sure fire plugin
+
+maven failsafe plugin:
+
+if we want to execute integration testingi.,. bulk test cases
+?:.L,KMJNHBVC
+3. Resources
+ we are creating reports in the resource file . here we are using maven resources plugin

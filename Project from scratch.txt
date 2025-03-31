@@ -1,0 +1,66 @@
+Project from scratch:
+
+maven consists f diff folders
+
+WHEN WE ARE creating project  base classs will crete automatically
+base class contains all the common files, functionsm  scenarios
+all the return will be under base class
+
+
+. 
+1. Src/test/java
+
+It consists of all the feature files present
+all the files which is related  for automation testing
+consist of all files which are required to proceed for the testing
+
+A. feature files
+B. stepDefinition: 
+C.TestREUNNER
+D. Base class
+
+Utilities
+FETCH DATA from excel, properties and also some common functions
+
+
+2src/main/java
+consists of constants folder : hardcoded : path of screenshots , excels
+it consists all the configuration related files
+and global.properties :it consists of data in the form of key value pair 
+for commenting we can use #
+
+
+path of captre screenshots 
+paths of excel file 
+
+
+
+3. Target:
+all the reports , screenshots
+
+
+---------
+after creating we have to add selenium dependency
+
+
+start with feature file . 
+add steps under feature
+
+
+
+
+
+--------Pageclass
+
+when we are following page object model we have to create separate page class  for each page 
+
+we have to create constructor for each page.
+page class contains  locators and methos
+and i contains 2 annotations 
+@init:in order to initialize the elements
+@findby
+
+
+
+
+

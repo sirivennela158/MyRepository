@@ -1,0 +1,81 @@
+Selenium is web automation tool
+Thoughtworks own it 
+2008
+version 4
+
+
+4 different components re there in selenium
+1.selenium IDE(Integrated development environment)- tool kit for web testing- will use for record and play back functionality-initially it is available for firefox-now it is available for firefox and chrome
+
+2. selenium RC(Remote control)-will use to write automation test cases and interaction with browser is very easy- it is outdated  due to time consumption
+
+3. selenium webDriver- it is an interface which will help to open web page in browser. we can also integrated testing, bdd, cucumber
+
+4.Selenium grid-  we can do testing in a parallel version. 
+
+
+Selenium 3.0:
+
+WHEN we are writing code it is stored in source code format in IDE. json wire protocol is going  to write converted into serializable i.e,. stream of bytes. this serializable will send to browser driver. browser driver will execute code in respective browsers
+
+
+Selenium 4.0:
+we are writing code in client library. W3C protocol is enableing direct communication between driver and client
+
+
+HIERARCHY OF WEBDRIVER:
+
+Parent interface in selenium is search context
+
+ child interface
+Take screenshot
+java script execution
+webDriver
+has capabilities
+
+
+Remote webdriver is a class which is going to implement all the above interfaces but not directly but with child classes like chrome driver , edge driver, firefox driver, 
+
+Ex: webDriver driver= new chromedriver;
+Ex: WebDriver(interface) driver()Reference variable
+chromesriver  =class
+
+
+WebDriver manager:
+it is not in using in 4.0
+
+
+
+
+
+
+
+
+
+CSS Selector:
+CSS selector is faster than xpath'
+easy to write
+
+Types of css selector:
+id
+classs
+attribute
+substring 
+innerstring
+syntax:
+driver.findElement(By.CSSselector(".<id>"))
+driver.findElement(By.CSSselector("#<class
+>"))
+
+
+
+the most challenging TASK to do in selenium is captcha
+
+we can do this with tess 4J plugin 
+
+tess 4 j contains doc r class
+
+
+
+
+
